@@ -1,0 +1,3 @@
+# expansion of (1 + x)^n accurate to t + 1 terms
+# bx n t x
+cmg $1 $2 | con $3 | sm

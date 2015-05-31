@@ -14,7 +14,7 @@ bignum main(int argc, char *argv[])
 	
 	bignum x = atof(*++argv);
 	bignum y = atof(*++argv);
-	bignum d = 0;
+	bignum d = 0;	/* the first term is the zeroth */
 	while (d <= y) {
 		printf("%g\n", cm(x, d++));
 	}
