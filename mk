@@ -6,3 +6,5 @@ gcc -o bin -I ~/proj/hw/ ~/proj/hw/comb/cm.c bin.c
 gcc -o cmg cmg.c -lm
 # sum all stdin
 gcc -o sm sm.c
+# monolithic version of the above 
+gcc -o bmx bmx.c -lm
